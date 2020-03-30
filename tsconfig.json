@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/js/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "es8",
+      "target": "es5",
+      "allowJs": true
+    }
+  }

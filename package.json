@@ -1,0 +1,39 @@
+{
+    "name": "webpack-bootstrap-boilerplate",
+    "version": "1.0.0",
+    "description": "A basic webpack config that keep css is css, html is html and js is js.",
+    "main": "src/app.js",
+    "scripts": {
+        "cp-bootstrap": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./dist/css/",
+        "comp-css": "node-sass src/scss -o dist/css",
+        "webpack-dev": "webpack --mode development",
+        "webpack-dev-watch": "webpack --mode development --watch",
+        "webpack-prod": "webpack --mode production",
+        "webpack-server": "webpack-dev-server --open --hot --mode development",
+        "start": "npm run cp-bootstrap & npm run comp-css & npm run webpack-dev-watch",
+        "build": "npm run cp-bootstrap & npm run comp-css & npm run webpack-prod"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bahadirdogru/webpack-boilerplate.git"
+    },
+    "keywords": ["Webpack","Jquery","Bootstrap"],
+    "author": "Bahadır Doğru",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bahadirdogru/webpack-boilerplate/issues"
+    },
+    "homepage": "https://github.com/e-bahadirdogru/webpack-boilerplate#readme",
+    "devDependencies": {
+        "node-sass": "^4.13.1",
+        "ts-loader": "^6.2.2",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "jquery": "^3.4.1",
+        "popper.js": "^1.16.1",
+        "bootstrap": "^4.4.1"
+    }
+}
