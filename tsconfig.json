@@ -3,7 +3,7 @@
       "outDir": "./dist/js/",
       "sourceMap": true,
       "noImplicitAny": true,
-      "module": "es8",
+      "module": "esnext",
       "target": "es5",
       "allowJs": true
     }

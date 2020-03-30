@@ -12,7 +12,7 @@ What you need?
 
 - Node.js obviously.
 - Git Bash if you working on Windows. You can find it here: <https://git-scm.com/downloads>
-- For better experience I recommend VSCode and Live Server extension. It is better than webpack-dev-server.
+- For better experience I recommend VSCode <https://code.visualstudio.com/> and Live Server <https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer> extension. It is better than webpack-dev-server.
 
 #### Usage
 

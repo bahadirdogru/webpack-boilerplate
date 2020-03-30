@@ -17,7 +17,11 @@
         "type": "git",
         "url": "git+https://github.com/bahadirdogru/webpack-boilerplate.git"
     },
-    "keywords": ["Webpack","Jquery","Bootstrap"],
+    "keywords": [
+        "Webpack",
+        "Jquery",
+        "Bootstrap"
+    ],
     "author": "Bahadır Doğru",
     "license": "MIT",
     "bugs": {
