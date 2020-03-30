@@ -1,12 +1,12 @@
 # Webpack Bootstrap Boilerplate
 
-```mermaid
+
 graph LR
 A[Src] -- SASS --> B((CSS))
 A -- Webpack --> C(JS)
 B --> D{Dist}
 C --> D
-```
+
 
 ### Make your project simple as possible
 
