@@ -1,13 +1,6 @@
 # Webpack Bootstrap Boilerplate
 
 
-graph LR
-A[Src] -- SASS --> B((CSS))
-A -- Webpack --> C(JS)
-B --> D{Dist}
-C --> D
-
-
 ### Make your project simple as possible
 
 This Boilerplate uses Webpack4 and typescript instead of Babel. Typescript is easier to configure and compile with it.
